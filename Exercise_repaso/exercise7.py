@@ -1,6 +1,5 @@
 #Escribir un programa que encuentre el número más grande y el más pequeño en una lista dada.
 
-# Pedir al usuario que ingrese los números
 numeros_str = input("Ingresa una lista de números separados por espacios: ")
 numeros_lista = [float(numero) for numero in numeros_str.split()]
 
