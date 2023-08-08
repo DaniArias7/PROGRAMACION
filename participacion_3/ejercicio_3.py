@@ -12,11 +12,13 @@ class Punto:
 
 
 
-x_coordenada = float(input("Ingrese la coordenada x del punto: "))
-y_coordenada = float(input("Ingrese la coordenada y del punto: "))
 
-punto = Punto(x_coordenada, y_coordenada)
-punto2 = Punto(40, 5)
+
+#x_coordenada = float(input("Ingrese la coordenada x del punto: "))
+#y_coordenada = float(input("Ingrese la coordenada y del punto: "))
+
+#punto = Punto(x_coordenada, y_coordenada)
+#punto2 = Punto(40, 5)
 
 
 
