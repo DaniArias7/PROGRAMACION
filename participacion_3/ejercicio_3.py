@@ -10,6 +10,8 @@ class Punto:
     def mostrar(self,):
         print(self.x, self.y)
 
+coord = Punto(2,8)
+coord.mostrar()
 
 
 

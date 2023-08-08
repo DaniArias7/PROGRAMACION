@@ -3,3 +3,15 @@ class Carta:
     def __init__(self, valor, pinta):
         self.valor = valor
         self.pinta = pinta
+
+# Definir constantes para las pintas
+PINTA_CORAZON = "Corazón"
+PINTA_DIAMANTE = "Diamante"
+PINTA_TREBOL = "Trébol"
+PINTA_PICA = "Pica"
+
+carta1 = Carta(10, PINTA_CORAZON)
+carta2 = Carta(3, PINTA_TREBOL)
+
+print(f"Carta 1: Valor = {carta1.valor}, Pinta = {carta1.pinta}")
+print(f"Carta 2: Valor = {carta2.valor}, Pinta = {carta2.pinta}")
