@@ -73,4 +73,4 @@ class ADNAnalyzer:
                 if not self._validate_sequence(current_sequence):
                     raise ValueError('El archivo contiene secuencias inválidas')
                 results[current_organism] = self._evaluate_conditions(current_sequence)
-        return results
+            return  results
